@@ -1,13 +1,14 @@
 import { imba } from 'vite-plugin-imba';
 import { resolve } from 'path'
 import { defineConfig } from 'vite';
+import { name } from './package.json'
 
 export default defineConfig({
 	plugins: [imba()],
 	build: {
 		lib: {
-			name: "my-lib",
-			fileName: "my-lib",
+			name: name,
+			fileName: "index",
 			entry: resolve(__dirname, 'src/index.js'),
 		},
 	},
