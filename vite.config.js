@@ -9,7 +9,7 @@ export default defineConfig({
 		lib: {
 			name: name,
 			fileName: "index",
-			entry: resolve(__dirname, 'src/index.js'),
+			entry: resolve(__dirname, 'src/main.imba'),
 		},
 	},
 });

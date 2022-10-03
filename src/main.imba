@@ -1,6 +1,9 @@
+export let state = {
+	count: 0
+}
+
 tag app
-	count = 0
-	<self@click=count++> "count is {count}"
+	<self@click=state.count++> "count is {state.count}"
 		css d:inline-block us:none cursor:pointer fs:6 p:2.5 5 rd:2.5
 			tween:box-shadow 250ms, background-color 250ms
 			ff:Arial c:black/87 bg:indigo4 bxs:xs
