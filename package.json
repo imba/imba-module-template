@@ -1,5 +1,5 @@
 {
-  "name": "imba-component",
+  "name": "imba-module",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/index.umd.cjs",
